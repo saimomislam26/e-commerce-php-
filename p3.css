@@ -1,0 +1,42 @@
+.prod-box{
+	width:235px;
+	height:300px;
+	overflow:hidden;
+	margin:0,20,30,0;
+	position:relative;
+}
+.prod-box img{
+	max-width:100%;
+}
+.prod-tran{
+	background:rgba(0,0,0,0.6);
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	position:absolute;
+	opacity:0;
+	transition:all .5s ease;
+}
+.prod-box:hover .prod-tran{
+	opacity:1;
+	transition:all .5s ease;
+}
+.prod-feature{
+	text-align:center;
+	margin-top:-150px;
+	transition:all .5s ease;
+}
+.prod-feature p{
+	font-weight:bold;
+	color:red;	
+}
+.prod-box:hover .prod-feature{
+	margin-top:150px;
+	transition:all .5s ease;
+}
+.back{
+	background-color:Dodgerblue;
+}

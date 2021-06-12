@@ -1,0 +1,3 @@
+[1116/193611.474:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1116/202457.371:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\saimo\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\15ac22bf-85d3-416a-853b-5541003b11b4: The system cannot find the path specified. (0x3)
+[1204/121654.912:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
